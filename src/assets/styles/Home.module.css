@@ -1,0 +1,197 @@
+.heroSection {
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  font-family: 'Newsreader';
+  height: 90vh;
+  justify-content: center;
+}
+
+.heroContent {
+  background-color: white;
+  height: 385px;
+  padding: 15px 40px 0;
+  text-align: center;
+  width: 600px;
+}
+
+.heroContent h6 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.heroContent h1 {
+  font-size: 38px;
+  font-weight: 400;
+  font-family: 'Newsreader';
+  justify-content: space-between;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.heroContent input[type="email"] {
+   font-family: 'Newsreader';
+    font-size: 20px;
+    height: 35px;
+    padding: 6px 6px;
+    width: 485px;
+}
+
+.heroContent input[type="placeholder"] {
+    font-size: 16px;
+}
+
+.heroContent input[type="submit"] {
+  background-color: #B08967;
+    border-style: none;
+    cursor: pointer;
+    font-family: 'Newsreader';
+    font-size: medium;
+    height: 50px;
+    width: 150px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.sectionHeading {
+  font-family: 'Newsreader';
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.section {
+  display: flex;
+  font-family: 'Newsreader';
+  justify-content: space-between;
+  margin: 65px 150px 120px 150px;
+}
+
+.postImage {
+  height: 250px;
+  width: 400px;
+  padding-bottom: 15px;
+}
+
+.blogImage img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.contentWrapper {
+  position: relative;
+}
+
+.contentWrapper img {
+  height: 250px;
+  padding-bottom: 15px;
+  width: 400px;
+}
+
+.title {
+  color: black;
+  font-size: 26px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.desc {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 375px;
+  text-align: center;
+}
+
+.imageOverlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 535px;
+  position: absolute;
+  width: 385px;
+}
+
+.section img {
+  height: 550px;
+  width: 385px;
+}
+
+.textOverlay a {
+  color: white;
+  font-family: 'Newsreader';
+  font-size: 30px;
+  margin: -165px 50px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+}
+
+.date {
+  color: white;
+  font-family: 'Newsreader';
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.videoSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 150px 65px 150px;
+}
+
+.videoWrapper video {
+  object-fit: cover;
+}
+
+.ctaSection {
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Newsreader';
+  height: 65vh;
+  justify-content: center;
+}
+
+.ctaSection h6 {
+color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ctaSection h2 {
+  color: white;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+}
+
+.ctaSection button {
+  background-color: #B08967;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Newsreader';
+  font-size: 18px;
+  height: 50px;
+  margin-top: 10px;
+  padding: 0 25px;
+  text-transform: uppercase;
+  word-spacing: 3px;
+}
+

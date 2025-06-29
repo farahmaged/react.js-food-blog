@@ -1,0 +1,50 @@
+.sectionTitle {
+  color: #B08967;
+  font-family: 'Newsreader';
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section {
+  display: flex;
+  font-family: 'Newsreader';
+  gap: 25px;
+  margin: 50px 150px 120px 150px;
+}
+
+h6 {
+    color: #B08967;
+    font-family: 'Newsreader';
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section img {
+  height: 250px;
+  padding-bottom: 15px;
+  width: 400px;
+}
+
+.section h2 {
+  color: black;
+  font-size: 26px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.section p {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 375px;
+  text-align: center;
+}
+

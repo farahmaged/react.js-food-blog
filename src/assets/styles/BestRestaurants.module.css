@@ -1,0 +1,78 @@
+.heading {
+  color: #b08967;
+  font-family: 'Newsreader', serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section {
+  display: flex;
+  font-family: 'Newsreader', serif;
+  justify-content: space-between;
+  margin: 0 150px 120px 150px;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  max-width: 385px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 550px;
+  position: absolute;
+  width: 385px;
+  top: 0;
+  left: 0;
+}
+
+.card img {
+  height: 550px;
+  width: 385px;
+  object-fit: cover;
+  display: block;
+}
+
+.textOverlay {
+  position: absolute;
+  margin: -165px 50px;
+  text-align: center;
+}
+
+.textOverlay a {
+  color: white;
+  font-family: 'Newsreader', serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.text-overlay a {
+    color: white;
+    font-family: 'Newsreader';
+    font-size: 30px;
+    margin: -165px 50px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text-overlay .date {
+    color: white;
+    font-family: 'Newsreader';
+    font-size: 25px;
+    margin-top: -15px;
+}
+
+.date {
+  color: white;
+  font-family: 'Newsreader', serif;
+  font-size: 25px;
+  margin-top: 10px;
+}

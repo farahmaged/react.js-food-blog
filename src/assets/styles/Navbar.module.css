@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  font-family: 'Newsreader', serif;
+  font-size: 18px;
+  justify-content: space-between;
+  padding: 5px 100px;
+}
+
+.nav img {
+  max-width: 250px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li a {
+  color: black;
+  display: inline-block;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+
+li a:hover,
+.active {
+  color: #b08967;
+}

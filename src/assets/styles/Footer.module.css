@@ -1,0 +1,21 @@
+.footer {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 0 20px;
+}
+
+#social-media-icons {
+  display: flex;
+  font-size: 20px;
+  gap: 20px;
+  color: white;
+}
+
+.footer p {
+  color: white;
+  font-family: 'Newsreader', serif;
+  font-size: 17px;
+}
